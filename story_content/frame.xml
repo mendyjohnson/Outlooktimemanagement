@@ -1,0 +1,1284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="pxabnsnfns11111101101" textdirection="ltr" device="false" fontscale="100" kbshortcuts="false" skip_nav_enabled="true" outputtype="undefined" theme="classic">
+  <layouts>
+    <layout name="npnxnanbsnfns11111101101" font="TKTypeRegular" controllayout="npnxnanbsnfns11111101101" colorscheme="pxabnsnfns11111101101" string_table="pxabnsnfns11111101101" />
+    <layout name="pxabnsnfns11111101101" font="TKTypeRegular" controllayout="pxabnsnfns11111101101" colorscheme="pxabnsnfns11111101101" string_table="pxabnsnfns11111101101" />
+    <layout name="npxnabnsnfns11111101101" font="TKTypeRegular" controllayout="npxnabnsnfns11111101101" colorscheme="pxabnsnfns11111101101" string_table="pxabnsnfns11111101101" />
+    <layout name="npnxnanbnsnfns11111101101" font="TKTypeRegular" controllayout="npnxnanbnsnfns11111101101" colorscheme="pxabnsnfns11111101101" string_table="pxabnsnfns11111101101" />
+    <layout name="pxabnsnfns11111101100" font="TKTypeRegular" controllayout="pxabnsnfns11111101100" colorscheme="pxabnsnfns11111101101" string_table="pxabnsnfns11111101101" />
+  </layouts>
+  <control_options>
+    <optiongroups>
+      <optiongroup name="sidebaroptions">
+        <options>
+          <option name="title_enabled" value="true">
+            <options>
+              <option name="title_text" value="Using Microsoft Outlook for Time Management" />
+            </options>
+          </option>
+          <option name="logo_enabled" value="true">
+            <options>
+              <option name="logo_url" value="story_content/logo.swf">
+                <properties>
+                  <property name="width" value="704" />
+                  <property name="height" value="598" />
+                </properties>
+              </option>
+              <option name="html5_logo_url" value="mobile/5YYSn79agHM.png" />
+            </options>
+          </option>
+          <option name="sidebar_enabled" value="true">
+            <options>
+              <option name="sidebarpos" value="left" />
+            </options>
+          </option>
+          <optionlist name="tabs">
+            <listitems>
+              <listitem name="resources" value="true" group="linkright" />
+              <listitem name="outline" value="true" group="sidebar" />
+              <listitem name="glossary" value="false" group="sidebar" />
+              <listitem name="transcript" value="true" group="sidebar" />
+            </listitems>
+          </optionlist>
+          <option name="time_enabled" value="false">
+            <options>
+              <option name="time_format" value="elapsed" />
+            </options>
+          </option>
+          <option name="video_enabled" value="false">
+            <options>
+              <option name="height" value="135" />
+            </options>
+          </option>
+        </options>
+      </optiongroup>
+      <optiongroup name="menuoptions">
+        <options>
+          <option name="flow" value="free" />
+          <option name="wraplistitems" value="false" />
+          <option name="tooltips" value="true" />
+          <option name="autocollapse" value="true" />
+          <option name="autonumber" value="false" />
+          <option name="enableresultsicons" value="true" />
+        </options>
+      </optiongroup>
+      <optiongroup name="controls">
+        <options>
+          <option name="volume" value="true" />
+          <option name="seekbar" value="true">
+            <options>
+              <option name="readonly" value="false" />
+            </options>
+          </option>
+          <option name="search" value="false" />
+          <option name="pauseplay" value="true" />
+          <option name="replay" value="true" />
+          <option name="closed_captions" value="true">
+            <options>
+              <option name="font" value="Open Sans" />
+            </options>
+          </option>
+        </options>
+      </optiongroup>
+      <optiongroup name="bottombaroptions">
+        <options>
+          <option name="bottombar_enabled" value="true" />
+        </options>
+      </optiongroup>
+    </optiongroups>
+  </control_options>
+  <control_layouts>
+    <control_layout name="npnxnanbsnfns11111101101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="true" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="true" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns11111101101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="true" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npxnabnsnfns11111101101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="true" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npnxnanbnsnfns11111101101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="true" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns11111101100">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="true" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="false" />
+    </control_layout>
+  </control_layouts>
+  <colorschemes>
+    <colorscheme name="pxabnsnfns11111101101">
+      <color_group name="infopanel">
+        <group_colors>
+          <color name="link_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x7C2280" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="link_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0000EE" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="name_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="title_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x999999" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="infopanelpopup">
+        <group_colors>
+          <color name="link_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x7C2280" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="link_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0000EE" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE9E9E9" alpha="100" stop="0" />
+                <color rgb="0xCFCFCF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="name_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bio_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x999999" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="timer">
+        <group_colors>
+          <color name="duration">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x74C4EF" alpha="100" stop="0" />
+                <color rgb="0x00A0F5" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="elapsed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFEE347" alpha="100" stop="0" />
+                <color rgb="0xFCCC2A" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="stroke">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD9DEE8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x003C7D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="window">
+        <group_colors>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x003C7D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x78879B" alpha="100" stop="0" />
+                <color rgb="0x78879B" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD9DEE8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD9DEE8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x78879B" alpha="20" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="editor">
+        <group_colors>
+          <color name="slide_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x003C7D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="html_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x003C7D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x00A0F5" alpha="100" stop="0" />
+                <color rgb="0x00A0F5" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x003C7D" alpha="100" stop="0" />
+                <color rgb="0x0078DC" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x74C4EF" alpha="100" stop="0" />
+                <color rgb="0x00A0F5" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x00A0F5" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="listitem">
+        <group_colors>
+          <color name="selected_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="lines">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD9DEE8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="viewed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0078DC" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x003C7D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x00A0F5" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="base">
+        <group_colors>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x003C7D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+                <color rgb="0xFFFFFF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x78879B" alpha="100" stop="0" />
+                <color rgb="0x78879B" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="menu_shade">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+                <color rgb="0xFFFFFF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slide_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+                <color rgb="0xFFFFFF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="button">
+        <group_colors>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x00A0F5" alpha="100" stop="0" />
+                <color rgb="0x00A0F5" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0078DC" alpha="100" stop="0" />
+                <color rgb="0x00A0F5" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x00A0F5" alpha="100" stop="0" />
+                <color rgb="0x0078DC" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x00A0F5" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0078DC" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="checkbox">
+        <group_colors>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="check">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x33CC00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6BF8FF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="logo">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB0BAC4" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="menu">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x003C7D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="scrollarea">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="0">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+                <color rgb="0xFFFFFF" alpha="100" stop="128" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x00A0F5" alpha="100" stop="0" />
+                <color rgb="0x00A0F5" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD9DEE8" alpha="100" stop="0" />
+                <color rgb="0xD9DEE8" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x74C4EF" alpha="100" stop="0" />
+                <color rgb="0x74C4EF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x00A0F5" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icons">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x78879B" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD9DEE8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="detaila">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x00A0F5" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="detailb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x00A0F5" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="searchinput">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x78879B" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x78879B" alpha="100" stop="0" />
+                <color rgb="0x78879B" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icon">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD9DEE8" alpha="100" stop="0" />
+                <color rgb="0x78879B" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x00A0F5" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x003C7D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x78879B" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x003C7D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="seekcontrol">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x00A0F5" alpha="100" stop="0" />
+                <color rgb="0x00A0F5" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x00A0F5" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+                <color rgb="0xFFFFFF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_position">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD9DEE8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD9DEE8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="tabs">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0078DC" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x003C7D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x78879B" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4B5564" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="transcript">
+        <group_colors>
+          <color name="div">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD9DEE8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x003C7D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="outline">
+        <group_colors>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x003C7D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0055BE" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="resource">
+        <group_colors>
+          <color name="separator">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="glossary">
+        <group_colors>
+          <color name="selected_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x00A0F5" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x003C7D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD9DEE8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD9DEE8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD9DEE8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x003C7D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="volume">
+        <group_colors>
+          <color name="thumb_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD9DEE8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x78879B" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x78879B" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x78879B" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD9DEE8" alpha="100" stop="0" />
+                <color rgb="0x78879B" alpha="100" stop="128" />
+                <color rgb="0xC3C3C3" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="HTML">
+        <group_colors>
+          <color name="htmlpage_bg_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+    </colorscheme>
+  </colorschemes>
+  <string_tables>
+    <string_table name="pxabnsnfns11111101101">
+      <string id="check_include">Check to include</string>
+      <string id="clear">Clear and return to Menu</string>
+      <string id="close">Close</string>
+      <string id="acc_closed_captions">Closed captions. Press the spacebar to toggle captions on and off.</string>
+      <string id="continue">Continue</string>
+      <string id="continueresponsive">Continue</string>
+      <string id="exit">Exit</string>
+      <string id="filter">Filter</string>
+      <string id="finish">FINISH</string>
+      <string id="acc_finish">finish</string>
+      <string id="definition">Definition</string>
+      <string id="acc_definition">definition</string>
+      <string id="glossary">Glossary</string>
+      <string id="terms">Terms</string>
+      <string id="outline">Menu</string>
+      <string id="disabled_orientation">Please rotate your device</string>
+      <string id="next">NEXT</string>
+      <string id="acc_next">next</string>
+      <string id="transcript_chk">Notes</string>
+      <string id="transcript">Notes</string>
+      <string id="bio">Bio</string>
+      <string id="more_info">More info</string>
+      <string id="closed_captions">Captions</string>
+      <string id="acc_pause">pause</string>
+      <string id="acc_play">play</string>
+      <string id="send_an_email">Send an email</string>
+      <string id="prev">PREV</string>
+      <string id="acc_previous">previous</string>
+      <string id="question_list">Question List</string>
+      <string id="acc_replay">replay</string>
+      <string id="resources">Resources</string>
+      <string id="acc_resources">resources</string>
+      <string id="restart">Restart</string>
+      <string id="search">Search...</string>
+      <string id="acc_search_input">search</string>
+      <string id="search_in">Search in:</string>
+      <string id="search_results">Search Results</string>
+      <string id="acc_skipnavigation">Skip Navigation. Hit enter to return to the slide.</string>
+      <string id="slide_text_chk">Slide Text</string>
+      <string id="submitall">SUBMIT ALL</string>
+      <string id="acc_submitall">submit all</string>
+      <string id="submit">SUBMIT</string>
+      <string id="acc_submit">submit</string>
+      <string id="acc_volume">volume</string>
+    </string_table>
+  </string_tables>
+  <fonts>
+    <font name="TKTypeRegular">
+      <files>
+        <file bold="false" italic="false" />
+        <file bold="false" italic="false" />
+      </files>
+    </font>
+    <font name="Arial">
+      <files>
+        <file bold="false" italic="false" />
+      </files>
+    </font>
+  </fonts>
+  <sounds enabled="true" />
+  <nav_data>
+    <outline>
+      <links>
+        <slidelink slideid="_player.6pPQTP9aCms" displaytext="Introduction" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6pPQTP9aCms.6H6lDMN7uIU" displaytext="Welcome" expand="false" type="slide" />
+            <slidelink slideid="_player.6pPQTP9aCms.6gJTkKasewJ" displaytext="Lesson overview" expand="false" type="slide" />
+            <slidelink slideid="_player.6pPQTP9aCms.6FKdS9IkeNH" displaytext="Learning objectives" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6m7X5RHWnXY" displaytext="Managing email" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6m7X5RHWnXY.6BYLXvjZMUS" displaytext="Introduction" expand="false" type="slide" />
+            <slidelink slideid="_player.6m7X5RHWnXY.68VwVs2x6uT" displaytext="Best practices" expand="false" type="slide" />
+            <slidelink slideid="_player.6m7X5RHWnXY.66kf9bZBi1U" displaytext="Setting desktop alerts" expand="false" type="slide" />
+            <slidelink slideid="_player.6m7X5RHWnXY.69FDSbjHe0G" displaytext="4 Ds of email" expand="false" type="slide" />
+            <slidelink slideid="_player.6m7X5RHWnXY.5s75lq6q54f" displaytext="Emails to tasks" expand="false" type="slide" />
+            <slidelink slideid="_player.6m7X5RHWnXY.6P8hMdWhei2" displaytext="Email to calendar" expand="false" type="slide" />
+            <slidelink slideid="_player.6m7X5RHWnXY.5tvPUokQOVo" displaytext="Using Outlook rules" expand="false" type="slide" />
+            <slidelink slideid="_player.6m7X5RHWnXY.68qQ6Yj6WIi" displaytext="Mobile email" expand="false" type="slide" />
+            <slidelink slideid="_player.6m7X5RHWnXY.6aKcpaTD3Hp" displaytext="Knowledge check " expand="false" type="slide" />
+            <slidelink slideid="_player.6m7X5RHWnXY.5qofV1bCRDJ" displaytext="Question 1 of 3" expand="false" type="slide" />
+            <slidelink slideid="_player.6m7X5RHWnXY.6MgFeXpmiJi" displaytext="Question 2 of 3" expand="false" type="slide" />
+            <slidelink slideid="_player.6m7X5RHWnXY.6LTkWOAit6c" displaytext="Question 3 of 3" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6rFWxkwBMsW" displaytext="Managing calendars" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6rFWxkwBMsW.5dsL7djHi57" displaytext="Managing your time" expand="false" type="slide" />
+            <slidelink slideid="_player.6rFWxkwBMsW.5oZiCTZBza1" displaytext="Desktop view" expand="false" type="slide" />
+            <slidelink slideid="_player.6rFWxkwBMsW.6PCMPGWKrJv" displaytext="Arranging calendars" expand="false" type="slide" />
+            <slidelink slideid="_player.6rFWxkwBMsW.6WU5sS7R9oQ" displaytext="New appointments" expand="false" type="slide" />
+            <slidelink slideid="_player.6rFWxkwBMsW.6IvLJ22mp14" displaytext="Attaching emails to appointments" expand="false" type="slide" />
+            <slidelink slideid="_player.6rFWxkwBMsW.5jTkhSLPtCK" displaytext="Sharing calendars" expand="false" type="slide" />
+            <slidelink slideid="_player.6rFWxkwBMsW.5tz4eHC5lN0" displaytext="Knowledge check " expand="false" type="slide" />
+            <slidelink slideid="_player.6rFWxkwBMsW.6fDuBroLjpY" displaytext="Question 1 of 2" expand="false" type="slide" />
+            <slidelink slideid="_player.6rFWxkwBMsW.5hJncFqhvnF" displaytext="Question 2 of 2" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5kgJda9Toyg" displaytext="Managing tasks" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5kgJda9Toyg.6YDxKfg3VqV" displaytext="Delegating correctly" expand="false" type="slide" />
+            <slidelink slideid="_player.5kgJda9Toyg.6Fu6CexqJoa" displaytext="Assigning tasks" expand="false" type="slide" />
+            <slidelink slideid="_player.5kgJda9Toyg.6bp18wnRofP" displaytext="Delegating tasks using email" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6gVfd9gPyia" displaytext="Summary and final quiz" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6gVfd9gPyia.6DV7HgOvdXB" displaytext="Summary" expand="false" type="slide" />
+            <slidelink slideid="_player.6gVfd9gPyia.67bhWWGvhiL" displaytext="Final quiz " expand="false" type="slide" />
+            <slidelink slideid="_player.6gVfd9gPyia.6EkKUPiKdtn" displaytext="Question 1 of 5" expand="false" type="slide" />
+            <slidelink slideid="_player.6gVfd9gPyia.6k41IYa5NW1" displaytext="Question 2 of 5" expand="false" type="slide" />
+            <slidelink slideid="_player.6gVfd9gPyia.694U5D5JY8f" displaytext="Question 3 of 5" expand="false" type="slide" />
+            <slidelink slideid="_player.6gVfd9gPyia.5lABMQUWl4s" displaytext="Question 4 of 5" expand="false" type="slide" />
+            <slidelink slideid="_player.6gVfd9gPyia.5i3Zv6kTv6X" displaytext="Question 5 of 5" expand="false" type="slide" />
+            <slidelink slideid="_player.6gVfd9gPyia.6reUCLBHYNp" displaytext="Quick reference guide" expand="false" type="slide" />
+            <slidelink slideid="_player.6gVfd9gPyia.6TS3Qt0mt84" displaytext="Thank you!" expand="false" type="slide" />
+          </links>
+        </slidelink>
+      </links>
+    </outline>
+  </nav_data>
+  <resource_data description="&lt;p align='left'&gt;&lt;font face='TKTypeRegular' style='font-size: 11px;' size='11' color='#003C7D'&gt;Here are some useful links and documents:&lt;/font&gt;&lt;/p&gt;">
+    <resources>
+      <resource url="story_content/external_files/JobAid_OutlookTimeManagement.pdf" image="story_content/6GsVvh0m5Cn.png" title="Quick Reference Guide" />
+    </resources>
+  </resource_data>
+  <transcript_data>
+    <slidetranscripts>
+      <slidetranscript slideid="6pPQTP9aCms.6H6lDMN7uIU" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="0">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;Welcome to the training on Using Microsoft Outlook for Time Management. Click next to continue. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6pPQTP9aCms.6gJTkKasewJ" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="1">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;The purpose of this course is to provide you with the skills to effectively use Microsoft Outlook as a time management tool. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='2' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;This course has audio. Please adjust your computer’s speakers. If you would like to view navigation instructions for this course, click the link at the bottom of your screen.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6pPQTP9aCms.6FKdS9IkeNH" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="2">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;At the completion of this lesson, you will be able to:&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 9, 48, 96, 144]' blockindent='9' indent='-9'&gt;&lt;font face='Arial' size='15pt' style='font-size:15pt' color='#003c7d'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 9px"&gt;• &lt;/span&gt;&lt;/font&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;Manage time effectively using Outlook calendars and tasks&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 9, 48, 96, 144]' blockindent='9' indent='-9'&gt;&lt;font face='Arial' size='15pt' style='font-size:15pt' color='#003c7d'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 9px"&gt;• &lt;/span&gt;&lt;/font&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;Manage email efficiently&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 9, 48, 96, 144]' blockindent='9' indent='-9'&gt;&lt;font face='Arial' size='15pt' style='font-size:15pt' color='#003c7d'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 9px"&gt;• &lt;/span&gt;&lt;/font&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;Use Outlook rules to prevent work interruptions&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6m7X5RHWnXY.6BYLXvjZMUS" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="3">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;Is that what your day sounds like? Every day? Your Outlook inbox chimes as it fills to the brim with items to do. Are little pop-ups in the right, bottom corner of your screen constantly interrupting and preventing work from being done?&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;Is stress and chaos being created due to your email inbox being overloaded? Learn to manage your email in a way that allows you to control it, rather than allowing it to control you. Click next to learn more.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6m7X5RHWnXY.68VwVs2x6uT" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="4">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;Set aside specific times during the day to look at your inbox and read emails. A best practice is to schedule approximately four times a day to check your Outlook and address your emails. Additionally, turn off your reminders in Outlook to avoid unnecessary interruptions. When executing important daily activities, it can be very tempting to glance in Outlook when emails arrive. If you close the program entirely and only open it during your chosen, allotted times, you’ll find that productivity can be greatly increased.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;To turn off Outlook notifications, click File, then Options in your Outlook menu. In Outlook Options, click on Mail in the menu at the left. Scroll down to the “Message Arrival” section and uncheck everything in that section. This will prevent desktop alert pop-ups and distracting dings while you’re working and allow you to address emails at your chosen pace.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6m7X5RHWnXY.66kf9bZBi1U" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="5">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;Often it can be beneficial to allow notification sounds or desktop alerts for one or two individuals as needed to ensure you see their inquiries right away. To do so, go to File in your Outlook menu, then click the Manage Rules &amp;amp; Alerts button at the bottom. Set up a new rule to play a sound when you get a message from specific people, then identify that person in the Outlook address book and click the From button to identify them. Then look up and add any other individuals whose emails you need to see right away. Then choose the sound to play when you receive their emails. You may also want to set up a desktop alert to display when you receive those specific emails and click Finish once done.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6m7X5RHWnXY.69FDSbjHe0G" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="6">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;Make it a rule to touch each email one time. During your specific times to address emails, read them and then determine what needs to be done with each email. You can put every email into four categories, called the 4 Ds of email:&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 11, 48, 96, 144]' blockindent='11' indent='-11'&gt;&lt;font face='Arial' size='15pt' style='font-size:15pt' color='#003c7d'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 11px"&gt;• &lt;/span&gt;&lt;/font&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;Do it now&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 11, 48, 96, 144]' blockindent='11' indent='-11'&gt;&lt;font face='Arial' size='15pt' style='font-size:15pt' color='#003c7d'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 11px"&gt;• &lt;/span&gt;&lt;/font&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;Date activate it&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 11, 48, 96, 144]' blockindent='11' indent='-11'&gt;&lt;font face='Arial' size='15pt' style='font-size:15pt' color='#003c7d'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 11px"&gt;• &lt;/span&gt;&lt;/font&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;Delegate it or&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 11, 48, 96, 144]' blockindent='11' indent='-11'&gt;&lt;font face='Arial' size='15pt' style='font-size:15pt' color='#003c7d'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 11px"&gt;• &lt;/span&gt;&lt;/font&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;Delete it&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;Maybe an instant reply is required and you do it now. Other emails should be filed away in an Outlook folder to be referenced at a later date. You may need to date activate it and make it a calendar or task item to be addressed later or delegated to someone else.  Some emails may be strictly informational, and once you’ve read the information it can be deleted. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;To move an email to a folder, click the Move drop-down arrow at the top and choose what folder you want to move it to. You may also drag and drop the email to the appropriate folder on the left or right click and choose the Move option from the menu. It is a good practice to keep folders at a minimum with sensible names so you may easily find reference emails later. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;The ideal situation is to touch an email once, complete whatever task it requires at that time and move on. You will begin to notice you have less emails in your inbox, and the messages you need will be easier to find. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;You can also convert an email to a task. Let’s look at how this is done. Click next to continue. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6m7X5RHWnXY.5s75lq6q54f" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="7">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;In Outlook, you may &lt;/font&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;c&lt;/font&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;lick on an email and drag it to Tasks in your Navigation menu at the bottom left. This will open a new window allowing you to create a new task from the email. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;You may also add &lt;/font&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;quick steps &lt;/font&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;to the Quick Step menu to allow you to more easily move and delegate emails. Go to your Quick Step menu in your ribbon and choose Create New Step. You may name your new short cut and choose your quick step action from the drop down menu. You may add additional actions using the Add Action button. You also have the option to choose a shortcut key on your keyboard to perform this action and add a tip if you would like. Then click Finish. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;To convert an email to a task to be completed later, click on or open the email in Outlook. In the Quick Steps menu, you may click Move to Tasks to create a new task using this email. A new task window will open, and you can save the information for the task and set a start date and due date. Then Outlook will remind you when the task must be completed. To see the task you’ve created, you may go to your task menu by clicking tasks at the bottom left. You’ll learn more about managing tasks later in this training module. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6m7X5RHWnXY.6P8hMdWhei2" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="8">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;To make an email a calendar item, first click on the email in Outlook. At the top center of your Home menu ribbon, you will see Quick Steps. Click New Meeting to create the new meeting invite using the email and your calendar. Next, a new email window will open with a calendar invite, and you can set the time and date for the meeting and add any attendees and details. Your Outlook calendar will remind you of this meeting at its scheduled time. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;To see this calendar appointment, you may click calendar at the bottom left. You’ll learn more about managing your calendar later in this training module. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6m7X5RHWnXY.5tvPUokQOVo" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="9">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;Use your Outlook rules to help you effortlessly manage emails. You may create new rules that send emails from individuals directly to a specific folder.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;Click the drop-down arrow under Rules in your menu and choose the recipient. You will see a Rules and Alerts pop-up window. Choose the folder you want that individual’s emails to automatically be redirected to. Then you may check emails from that individual at your convenience by checking that folder and keeping your Inbox clear. The folder will become bold when a new email has arrived and automatically been routed to the folder.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;You may also create a new rule by clicking Rule, then Create New. The conditions for the rule will populate from the email you’ve selected. If you want to create new rules and select the criteria yourself, go to File, then Manage Rules &amp;amp; Alerts and create the rules with your own criteria. This example shows the rule of moving messages with specific words in the subject line to a folder. Add the word to the list and click OK. Then choose the folder by clicking the hyperlinked words and select the folder already created. Click OK to implement your rule. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;Think of the types of emails you receive often and from whom. Which ones can be filed away immediately to be read later? Think of the types of emails you may create rules around.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6m7X5RHWnXY.68qQ6Yj6WIi" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="10">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;If you carry a mobile device that has work email included, it is important to remember to apply these same email practices to your mobile device. You may master your Outlook on your computer, touching emails once a day, only to have your cellular phone be a distraction. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;To apply these features to a mobile device, you may go into your settings icon and click Notifications, then Mail. Then touch the green button to turn Notifications off for that mail application. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6m7X5RHWnXY.6aKcpaTD3Hp" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="11">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;Click Next to answer the following questions to test how much you’ve learned!&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6rFWxkwBMsW.5dsL7djHi57" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="12">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;Always use your Outlook calendar as your primary calendar to efficiently manage your schedule. If you have to juggle a calendar on your computer, a paper calendar on your desk and an alternative calendar elsewhere, you’re going to get confused and likely miss an appointment.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;Your thyssenkrupp mobile device has been set up with your Outlook email; it is also synced with your Outlook calendar. Everything you need is in one place to manage your schedule and appointments. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6rFWxkwBMsW.5oZiCTZBza1" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="13">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;In the main view of Outlook, you have the option to set up specific tools that will allow you to work more efficiently. You should be able to see your incoming emails and folders, but you should also have an appointment and task view set up to the right.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;Any appointments scheduled on your calendar will show up to the right of your email, but you must first turn on the To-Do Bar menu. Go to your Microsoft menu and click View, then add the To-Do Bar layout. Click the drop-down menu under the To-Do Bar menu item and use the checkmarks to customize whether you want to view appointments, tasks and the month-at-a glance calendar.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;Daily you may look and see what appointments are on your schedule and what tasks must be completed.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6rFWxkwBMsW.6PCMPGWKrJv" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="14">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;Your calendar has different views: the daily view, the work week view, the week view and the month view. You may switch between the calendars by clicking the icons in the Arrange menu in your ribbon at the top of the calendar. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;Use the views that are most appropriate for the task at hand to help you stay organized. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6rFWxkwBMsW.6WU5sS7R9oQ" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="15">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;You also have the option to go directly into your calendar and create new appointments.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;Click on Calendar in your Navigation pane at the bottom left, select the date and time you would like to schedule an appointment and click New Appointment. Once in the appointment you may include a subject and location, start times and end times and invite attendees. You may click on the Scheduling Assistant to view the schedules of those you’ve invited to ensure your meeting does not conflict with other appointments. Be sure to hit Send when once your meeting invitation is complete.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;If you do not have the Navigation pane menu at the bottom left, go to View and click Navigation Pane and select Normal.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6rFWxkwBMsW.6IvLJ22mp14" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="16">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;You may move emails to your calendar as an attachment. It can be helpful to have the original email saved in the calendar appointment for future reference. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;To do so, go to your Quick Step menu and click Create New. Name the action Move to Calendar or something similar that will allow you to remember the action. Then use the Choose an Action drop-down menu to choose the option Create an appointment with an attachment.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;This feature will move the selected email to the calendar appointment as an attachment. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6rFWxkwBMsW.5jTkhSLPtCK" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="17">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;Outlook offers the sharing of calendars. This feature allows others to view your calendar for more efficient scheduling. For example, your direct manager or team may ask you to share your calendars to prevent infringing upon other meetings or appointments you have scheduled.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;To share your calendar, go to the Calendar view of Outlook and click Share Calendar in your menu ribbon at the top. An email that looks like a sharing invitation will open, and you may enter the individual you would like to share your calendar with and type any appropriate message explaining the sharing request. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;Click Send to send the sharing invitation.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6rFWxkwBMsW.5tz4eHC5lN0" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="11">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;Click Next to answer the following questions to test how much you’ve learned!&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6gVfd9gPyia.6DV7HgOvdXB" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="18">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;In this course, you learned how to:&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;Manage time effectively using Outlook calendars and tasks&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;Manage email efficiently&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;Use Outlook rules to prevent work interruptions&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6gVfd9gPyia.67bhWWGvhiL" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="19">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;Let’s see what you’ve learned!&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;Answer the following questions in the graded final quiz. 80 % is a passing score.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6gVfd9gPyia.6reUCLBHYNp" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="20">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;A Quick Reference Guide for Using Outlook for Time Management is available in the Resources section of this training.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;Click Resources in the top right of this module if you would like to print the guide.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6gVfd9gPyia.6TS3Qt0mt84" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="21">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;Let us know what you think! Please take the survey through we.learn to give us feedback. Your input is valuable to us.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;To close this course, click the “X” to close the window.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5kgJda9Toyg.6YDxKfg3VqV" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="22">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;In the earlier lesson, you saw how to convert an email to a task for yourself. Often it may be necessary to delegate a task to another individual and assign it to them for completion. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;When delegating tasks to others, always remember:&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;Plan before you delegate- think of how the team can contribute to finishing the job&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;Determine who to assign the task to-choose the best person and don’t delegate unless it’s efficient. Delegating is not about passing the buck! &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;Communicate, communicate, communicate- do not just task someone with an assignment without them agreeing to it first. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;Then create the task assignment in Outlook and&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;Follow up&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;Click next to learn more about these steps.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5kgJda9Toyg.6Fu6CexqJoa" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="23">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;To assign a task in Outlook, go to the Task view by clicking Task in your Navigation Pane menu at the bottom left.  Click New Task to open and name the task with an appropriate subject that both you and your delegate will understand. Enter appropriate start dates and due dates and set a priority.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;Communicate in the message box appropriate information the delegate should know in order to complete the task. Then click Assign Task in the menu ribbon at the top and type the name of the delegate in the To line. Once your task assignment is complete, click Send.  &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5kgJda9Toyg.6bp18wnRofP" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="24">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;You may also delegate a task using email. First, communicate with the delegate requesting their assistance with a task. Generate the task by going to your Sent items and right click to access the Quick Step menu, then select create a task with an attachment and assign it to the delegate. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+    </slidetranscripts>
+  </transcript_data>
+  <glossary_data />
+</bwFrame>
